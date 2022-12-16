@@ -228,8 +228,9 @@ body {
   margin: 0 20px;
 }
 .nav .search-box input {
-  height: 100%;
+  height: 39px;
   width: 100%;
+  margin-top: 6px;
   outline: none;
   background: #f5f6fa;
   border: 2px solid #efeef1;
@@ -243,7 +244,7 @@ body {
   height: 40px;
   width: 40px;
   background: #767a8c;
-  right: 5px;
+  right: -10px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 4px;
@@ -281,9 +282,9 @@ nav .profile-details img {
   color: #333;
 }
 
-.home-section {
+/* .home-section {
   margin-bottom: 10px;
-}
+} */
 
 .home-section .home-content {
   position: relative;

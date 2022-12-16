@@ -37,13 +37,13 @@ h6,
   --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  display: none;
+  /* display: none; */
   width: 40px;
   height: 40px;
   border-radius: 3px;
   right: 15px;
-  bottom: 15px;
-  background: #8b0000;
+  bottom: 5px;
+  background: #708cab;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -1104,13 +1104,20 @@ h6,
   # Footer
   --------------------------------------------------------------*/
 #footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: rgb(218, 201, 201);
   padding: 15px 0 15px 0;
   color: #212529;
   font-size: 14px;
   background: #fef8f5;
 }
-
+.footer_item {
+  display: flex;
+  justify-content: center;
+}
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #fef8f5;
